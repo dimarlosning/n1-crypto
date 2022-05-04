@@ -15,7 +15,7 @@ jobs:
         PC_USER: ${{ secrets.PC_USER }}
         PC_PASS: ${{ secrets.PC_PASS }}
         PC_CONSOLE_URL: ${{ secrets.PC_CONSOLE_URL }}
-        IMAGE_NAME: porec/pcc-crypto:latest
+        IMAGE_NAME: dimarlosning/n1-crypto:latest
         PRE_BUILD_GIT_SCAN_FLAG: true
     
     steps:
